@@ -1,1 +1,1 @@
-# h2-tableau-connector
+# Tableau connectors to H2 Database
