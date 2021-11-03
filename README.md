@@ -9,5 +9,5 @@ Tableau Desktop/Server does not have built-in ability to connect to **H2 Databas
 - Better live query support. Custom connectors use customized dialect to generate SQL queries so they are compatible and optimized for the specific database. The Other Database connectors rely on higher-level standard SQL that may not always be appropriate.
 - Runs in both Tableau Desktop and Tableau Server. No configuration is required after you install the connector
 
-
+>This database does not come with its own ODBC driver at this time, but it supports the PostgreSQL network protocol. Therefore, the PostgreSQL ODBC driver can be used. Support for the PostgreSQL network protocol is quite new and should be viewed as experimental. It should not be used for production applications.
 
