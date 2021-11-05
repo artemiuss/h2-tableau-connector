@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <dialect name='H2'
-         class='h2_odbc'
+         class='h2_jdbc'
          version='18.1'>
   <function-map>
     <function group='numeric' name='ABS' return-type='real'>
