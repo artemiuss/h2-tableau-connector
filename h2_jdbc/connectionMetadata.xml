@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <connection-metadata>
-  <database enabled='true'>
-    <field />
-  </database>
-  <schema enabled='false' />
+  <database enabled='true' label="Database" />
+  <schema enabled='false' label="Schema" />
+  <table enabled='false' label="Table" />
 </connection-metadata>
