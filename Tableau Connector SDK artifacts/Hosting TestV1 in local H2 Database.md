@@ -50,6 +50,9 @@ cd "/mnt/c/Program Files (x86)/H2/bin"
 java -cp h2-*.jar org.h2.tools.Shell
 
 jdbc:h2:/mnt/c/Users/Artem/TestV1
+User:     test
+Driver:   [Enter]
+Password: [Enter]
 
 RUNSCRIPT FROM '/mnt/d/h2-workspace_2021.2/tests/datasets/TestV1/DDL/Staples.sql';
 RUNSCRIPT FROM '/mnt/d/h2-workspace_2021.2/tests/datasets/TestV1/DDL/Calcs.sql';
