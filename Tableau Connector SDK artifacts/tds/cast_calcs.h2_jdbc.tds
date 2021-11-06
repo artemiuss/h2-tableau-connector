@@ -4,10 +4,10 @@
   <connection class='federated'>
     <named-connections>
       <named-connection caption='h2' name='leaf'>
-        <connection tdvtconnection='h2_jdbc' class='h2_jdbc' dbname='TestV1' port='9092' server='localhost' username='test'/>
+        <connection tdvtconnection='h2_jdbc' class='h2_jdbc' dbname='TESTV1' port='9092' server='localhost' username='test' password='' />
       </named-connection>
     </named-connections>
-    <relation connection='leaf' name='Calcs' table='[public].[Calcs]' type='table' />
+    <relation connection='leaf' name='Calcs' table='[PUBLIC].[Calcs]' type='table' />
     <metadata-records>
       <metadata-record class='column'>
         <remote-name>key</remote-name>
